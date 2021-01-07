@@ -1,5 +1,6 @@
 # Heretak
 Gym community
 
-Author
+Author<br>
     - Seung Il Ahn
+	- Jaeseung Byun
