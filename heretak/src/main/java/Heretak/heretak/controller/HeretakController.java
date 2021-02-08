@@ -12,12 +12,12 @@ public class HeretakController {
     @GetMapping("heretak")
     @ResponseBody
     public String heretak(@RequestParam("name") String name, Model model) {
-        Hello hello = new Hello();
-        hello.setName(name);
-        return hello.getName();
+        Heretak heretak = new Heretak();
+        heretak.setName(name);
+        return heretak.getName();
     }
 
-    static class Hello {
+    static class Heretak {
         private String name;
         public String getName() {
             return "We are " + name;
