@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://
+    driver-class-name: org.mariadb.jdbc.Driver
+    username : abc
+    password : abc
+  jpa:
+    open-in-view: false
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+#  thymeleaf:
+#    prefix: classpath:/templates/
+#    suffix: .html
+#
+#logging:
+#  level:
+#    org.hibernate.SQL: debug
+#    org.hibernate.type: trace
